@@ -2,7 +2,6 @@
     padding:0px;
     margin: 0px;
     font-family: sans-serif;
-
 }
 .banner{
     width:100%; 
@@ -19,15 +18,21 @@
      display:flex;
      align-items:center;
      justify-content: space-between;
+
 }
-.logo{
+.navbar i{
+    color:#ffffff;
+    font-size: 25px;
+}
+.logo a{
      width:100px;
+     margin-left:0;
      font-size: 20px;
      font-weight:Bold;
      font-family:Serif;
      text-transform:uppercase;
      letter-spacing:3px;
-     color:#fff;
+     color:#ffffff;
      cursor: pointer;
      text-decoration: none;
 }
@@ -48,7 +53,7 @@
     content:'';
     width:0;
     height:3px;
-    background:#ff5608;
+    background:hwb(19 3% 0%);
     position:absolute;
     left:0;
     bottom:-10px;
@@ -56,4 +61,211 @@
 }
 .navbar ul li:hover::after{
     width:100%;
+}
+.row{
+    width:85%;
+    margin:auto;
+    display:flex;
+    height:88%;
+    align-items:center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+     font-size:70px;
+     color:#fff;
+     letter-spacing: 1.5px;
+   font-family:'Times New Roman', Times, serif ;
+}
+.row p{
+   font-size:20px;
+   color:#ffffff;
+   letter-spacing: 1.5px;
+   font-family:'Times New Roman', Times, serif ;
+    margin:20px 0;
+}
+.col button{
+    width:170px;
+    font-size: 15px;
+    padding:10px 20px;
+    background-color: white;
+    color:#000000;
+    font-weight:bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin:20px;
+    border:0;
+    outline:none;
+    border-radius:20px;
+    text-decoration:none;
+    transition: 0.5s;
+}
+.col button:hover{
+    background-color: #ff5608;
+    color:white;
+    box-shadow:0 3px 3px 1px rgba(255, 255, 255, 0.753);
+}
+.card{
+   font-family:serif;
+   width:180px;
+   height:210px;
+   display:inline-block;
+   border-radius:10px;
+   padding:15px 25px;
+   box-sizing: border-box; 
+   margin:10px 15px;
+   cursor:pointer;
+   transition:0.5s;
+   color:hwb(0 0% 100%);
+}
+.card p{
+    font-size: 11px;
+    text-align: justify;
+    letter-spacing: 1.5px;
+}
+.card1{
+    background-image: url(images/pexels-debraj-roy-14687500.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card2{
+    background-image: url(images/peakpx\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card3{
+    background-image: url(images/wallpaperflare.com_wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card4{
+    background-image: url(images/pexels-asad-photo-maldives-1320684.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box{
+    margin-left: 215px;
+}
+.card:hover{
+    transform: translateY(-10px);    
+}
+/*............services...........*/
+.container{
+    background-color: #ffffffb4;
+}
+.services{
+    width:85%;
+    margin:auto;
+}
+ .services h2{
+    color:rgba(0, 0, 0, 0.699);
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    padding:30px;
+    margin:10px;
+    font-size:30px;
+ }
+ .row1{
+   width:100%;
+   height:100%;
+   display:flex;
+   align-items:center;
+   margin:50px 0;
+ }
+ .row2{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    margin:50px 0;
+}
+.col1{
+    flex-basis:50%;
+}
+.col1 img{
+    height:300px;
+    width:500px;
+    border-radius: 10px;
+
+}
+.row2,.col2{
+    flex-basis:50%;
+    margin-right:100px;
+}
+.col2{
+    margin-left:100px; 
+      
+}
+.col2 h2{
+        font-family:'Times New Roman', Times, serif;
+        font-size:30px; 
+        color:darkgrey;
+        letter-spacing:1.5px; 
+}
+.col2  p{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px; 
+    text-align:center;
+    color:rgb(0, 0, 0);
+    letter-spacing:1.5px;
+}
+/* ............footer........... */
+.footer{
+    font-family:poppins,sans-serif;
+    width:100%;
+    margin-top:150px;
+    height:100%;
+    padding:100px 15%;
+    color:#efefef;
+    background-color: #333;
+    display:flex;
+    box-sizing:border-box;
+}
+.footer  div{
+    text-align:center;
+}
+.col-2{
+    flex-grow:2;
+}
+.footer  div h3{
+    font-weight:300;
+    margin-bottom:30px;
+    letter-spacing:1px;
+}
+.col-1 a{
+    display:block;
+    text-decoration: none;
+    letter-spacing:1.5px;
+    margin-bottom:10px;
+    color:#efefef;
+    font-size:15px;
+}
+form input{
+    width:400px;
+    height:45px;
+    border-radius: 4px;
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:40px;
+    outline:none;
+    border:none;
+}
+form button{
+    background:transparent;
+    border:2px solid #fff;
+    color:#fff;
+    padding:10px 30px;
+    border-radius:20px;
+    font-size:15px;
+    cursor:pointer;
+
+}
+.col-3 p{
+       letter-spacing:1.5px;
+       font-size:15px;
+       padding:0 10px;
+}
+.col-4 i{
+    margin:6px;
+    cursor:pointer;
 }
