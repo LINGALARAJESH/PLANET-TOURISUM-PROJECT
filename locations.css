@@ -154,7 +154,7 @@ h1{
     width:200px;
     height:300px;
     border-radius: 15px;
-    box-shadow:0 9px 9px 3px rgba(0, 0, 0, 0.514);;
+    box-shadow:0 9px 9px 3px rgba(0, 0, 0, 0.514);
     transition: 0.5s;
     text-align: center;
 }
@@ -263,25 +263,54 @@ h1{
         background-position: center;
     }
 /* ..........MALDIVES......... */
-.banner04{
+
+.banner04 {
     width:97%; 
-    height:120vh;
-    background-image:url(images/varshesh-joshi-qaZofx5ePm8-unsplash.jpg);
+    height:100vh;
+    background-clip:linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15));
     background-size:cover;
     background-position:center;
     box-sizing: border-box;
     margin:20px;
     border-radius: 30px;
 }
+.banner04 video{
+    position: absolute;
+    width:97%; 
+    height:100vh;
+    background-clip:linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15));
+    object-fit:fill;
+    border-radius: 30px;
+}
+.content{
+    position:absolute;
+}
+.banner04 h1{
+    padding-left:50px;
+    font-size:70px;
+    color:#00eeffc2;
+    letter-spacing: 1.5px;
+  font-family:'Times New Roman', Times, serif ;
+} 
+.banner04 p{
+    width:500px;
+    padding:50px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:15px; 
+    color:rgba(0, 0, 0, 0.623);
+    letter-spacing:1.5px; 
+    text-align:justify;
+}
 .banner04 h2{
-    padding-top:30px;
+    padding-left:50px;
     font-family:'Times New Roman', Times, serif;
     font-size:30px; 
     color:rgba(43, 0, 71, 0.712);
     text-transform: uppercase;
     letter-spacing:1.5px; 
-    text-align:center;
-}
+    text-align:left;
+
+} 
 
 /* ............footer........... */
 .footer{

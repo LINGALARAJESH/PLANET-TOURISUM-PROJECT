@@ -8,7 +8,7 @@
      <script src="https://kit.fontawesome.com/3b35751d10.js" crossorigin="anonymous"></script>
     </head>
 <body>
-<section class="header">
+<section class="header" id="Home">
   <div class="banner">
     <div class="navbar">
       <div class="logo">
@@ -18,9 +18,9 @@
     <ul>
       <li class="link"><a class="active" href="#">Home</a></li>
       <li class="link"><a href="locations.html">locations</a></li>
-      <li class="link"><a href="#">services</a></li>
-      <li class="link"><a href="#">About us</a></li>
-      <li class="link"><a href="#">contact us</a></li>
+      <li class="link"><a href="#service">services</a></li>
+      <li class="link"><a href="#contact">About us</a></li>
+      <li class="link"><a href="#contact">contact us</a></li>
       <li class="link"><a href="#">sign in<i class="fa-sharp fa-solid fa-right-to-bracket fa-beat-fade"></i></a></li>
     </ul>
   </div>
@@ -28,31 +28,39 @@
     <div class="col">
       <h1>Let's <br>make your trip......</h1>
       <p><strong>M</strong>ake your life more beautiful..<br> <strong>W</strong>ith most beautiful memories..<br><strong>W</strong>ith  @planet tourisum in india.</p>
-      <button type="Button">Locations</button>
+      <a href="locations.html"><button type="Button">Locations</button></a>
     </div>
     <div class="col box">
+      <a href="locations.html#North">
       <div class="card card1">
       <h4>NORTH INDIA</h4>
       <p>Explore a wide diversity of wildlife tours through Northern India.</p>
       </div>
+      </a>
+      <a href="locations.html#South">
       <div class="card card2">
         <h4>SOUTH INDIA</h4>
         <p>South India has a unique culture of itself that can be experienced.</p>
         </div>
+      </a>
+        <a href="locations.html#North-East">
         <div class="card card3">
           <h4>NORTH-EAST INDIA</h4>
           <p>The northeastern part of India is known to be the world's most culturally diverse region. </p>
           </div>
+        </a>
+          <a href="locations.html#Maldives">
           <div class="card card4">
             <h4>MALDIVES</h4>
             <p>Maldives is best known for its serene natural environment that includes the azure blue ocean, clean air, and white sandy beaches.</p>
             </div>
+          </a>
           
     </div>
   </div>
   </div>
   <!-- ..........services......... -->
-  <div class="container">
+  <div class="container" id="service">
    <div class="services">
           <h2>Services we provide you in wide range...!</h2>
           <div class="row1">
@@ -87,14 +95,14 @@
    </div>
    </div>
      <!-- ..........footer......... -->
-     <div class="footer">
+     <div class="footer" id="contact">
            <div class="col-1">
             <h3>USEFUL LINKS</h3>
-            <a href="#">HOME</a>
-            <a href="#">LOCATIONS</a>
-            <a href="#">SERVICES</a>
-            <a href="#">ABOUT US</a>
-            <a href="#">CONTACT US</a>
+            <a href="#Home">HOME</a>
+            <a href="locations.html">LOCATIONS</a>
+            <a href="#service">SERVICES</a>
+            <a href="#contact">ABOUT US</a>
+            <a href="#contact">CONTACT US</a>
             </div>
             <div class="col-2">
               <h3>NEWS LETTER</h3>
